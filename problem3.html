@@ -22,8 +22,12 @@
     ></script>
   </head>
   <body>
-    <div class="container p-5" >
-      <div class="accordion-container p-2" x-data="{showDiv:null}" id="accordion">
+    <div class="container p-5">
+      <div
+        class="accordion-container p-2"
+        x-data="{showDiv:null}"
+        id="accordion"
+      >
         <div class="card">
           <div class="card-header" id="headingOne">
             <div
@@ -31,11 +35,13 @@
               @click="showDiv !== 1 ? showDiv = 1 : showDiv = null "
             >
               <div
-                class="col-sm-6 col-md-10 "
-                x-bind:="showDiv == 1 ? 'max-height:'"
+                class="col-sm-6 col-md-10"
+                x-bind:="showDiv == 1 ? 'max-height':''"
               >
                 <h2 class="mb-0">
-                  <button class="accordion-button">Lorem Ipsum is simply dummy text of the printing and </button>
+                  <button class="accordion-button">
+                    Lorem Ipsum is simply dummy text of the printing and
+                  </button>
                 </h2>
               </div>
               <div class="col-6 col-md-2 text-end">
@@ -71,15 +77,19 @@
                 />
                 <div class="col-sm-6 col-md-8">
                   <strong>This is the first item's accordion body.</strong> It
-                  It's also worth noting that just about any HTML can go within the
-                  though the transition does limit overflow.
+                  It's also worth noting that just about any HTML can go within
+                  the though the transition does limit overflow.
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="accordion-container p-2" x-data="{showDiv:null}" id="accordion">
+      <div
+        class="accordion-container p-2"
+        x-data="{showDiv:null}"
+        id="accordion"
+      >
         <div class="card">
           <div class="card-header" id="headingOne">
             <div
@@ -91,7 +101,10 @@
                   <button class="accordion-button">scrambled it to make</button>
                 </h2>
               </div>
-              <div class="col-6 col-md-2 text-end" x-bind:="showDiv == 2 ? 'max-height:'">
+              <div
+                class="col-6 col-md-2 text-end"
+                x-bind:="showDiv == 2 ? 'max-height':''"
+              >
                 <img
                   x-show="showDiv ? '' : 'hidden'"
                   src="Assets/3388418.png"
@@ -122,19 +135,30 @@
                   alt=""
                 />
                 <div class="col-sm-6 col-md-8">
-                  These classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this with custom CSS 
+                  These classes control the overall appearance, as well as the
+                  showing and hiding via CSS transitions. You can modify any of
+                  this with custom CSS
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="accordion-container p-2" x-data="{showDiv:null}" id="accordion">
+      <div
+        class="accordion-container p-2"
+        x-data="{showDiv:null}"
+        id="accordion"
+      >
         <div class="card">
           <div class="card-header" id="headingOne">
-            <div class="row" @click="showDiv !== 4 ? showDiv = 4 : showDiv = null">
-              <div class="col-sm-6 col-md-10" x-bind:="showDiv == 4 ? 'max-height:'>
+            <div
+              class="row"
+              @click="showDiv !== 4 ? showDiv = 4 : showDiv = null"
+            >
+              <div
+                class="col-sm-6 col-md-10"
+                x-bind:="showDiv == 4 ? 'max-height':''"
+              >
                 <h2 class="mb-0">
                   <button class="accordion-button">ng established</button>
                 </h2>
@@ -170,21 +194,33 @@
                   alt=""
                 />
                 <div class="col-sm-6 col-md-8">
-                  as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                  as well as the showing and hiding via CSS transitions. You can
+                  modify any of this with custom CSS or overriding our default
+                  variables. It's also worth noting that just about any HTML can
+                  go within the
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="accordion-container p-2" x-data="{showDiv:null}" id="accordion">
+      <div
+        class="accordion-container p-2"
+        x-data="{showDiv:null}"
+        id="accordion"
+      >
         <div class="card">
           <div class="card-header" id="headingOne">
-            <div class="row" @click="showDiv !== 3 ? showDiv = 3 : showDiv = null">
-              <div class="col-sm-6 col-md-10" x-bind:="showDiv == 3 ? 'max-height:'>
+            <div
+              class="row"
+              @click="showDiv !== 3 ? showDiv = 3 : showDiv = null"
+            >
+              <div
+                class="col-sm-6 col-md-10"
+                x-bind:="showDiv == 3 ? 'max-height':''"
+              >
                 <h2 class="mb-0">
-                  <button class="accordion-button">as opposed to </button>
+                  <button class="accordion-button">as opposed to</button>
                 </h2>
               </div>
               <div class="col-6 col-md-2 text-end">
@@ -227,11 +263,21 @@
           </div>
         </div>
       </div>
-      <div class="accordion-container p-2" x-data="{showDiv:null}" id="accordion">
+      <div
+        class="accordion-container p-2"
+        x-data="{showDiv:null}"
+        id="accordion"
+      >
         <div class="card">
           <div class="card-header" id="headingOne">
-            <div class="row" @click="showDiv !== 5 ? showDiv = 5 : showDiv = null">
-              <div class="col-sm-6 col-md-10" x-bind:="showDiv == 5 ? 'max-height:'>
+            <div
+              class="row"
+              @click="showDiv !== 5 ? showDiv = 5 : showDiv = null"
+            >
+              <div
+                class="col-sm-6 col-md-10"
+                x-bind:="showDiv == 5 ? 'max-height':''"
+              >
                 <h2 class="mb-0">
                   <button class="accordion-button">desktop publishing</button>
                 </h2>
